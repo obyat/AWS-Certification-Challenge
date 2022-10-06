@@ -3,11 +3,15 @@
     "Version": "2012-10-17",
     "Statement": [{
         "Sid": "S3GetObjectAllow",
-        "Action": [
-            "s3:GetObject"
-        ],
+        "Action": "s3:GetObject",
         "Effect": "Allow",
         "Resource": "Your_Bucket_ARN/*",
         "Principal": "*"
-    }]
+    }],
+    "Comments": "comments below:",
+    "Policy composition": "Id, Version, Statement",
+    "List": " [a, b, c] = a b c ",
+    "Sid": "Statement Id such as GetObjectAllow, AllowAll, etc",
+    "Statement": "RASEP",
+    "RASEP": "Resource, Action, Sid, Effect, Principal"
 }
